@@ -1,96 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Table Example</title>
 </head>
-
 <body>
-    <table>
-
-        <tr>
-            <td>pratik</td>
-            <td>pratik</td>
-            <td>pratik</td>
-            <td>pratik</td>
-            <td>pratik</td>
-        </tr>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+            <tr>
+                <td>Data 4</td>
+                <td>Data 5</td>
+                <td>Data 6</td>
+            </tr>
+        </tbody>
     </table>
 
 
+<hr>
 
 
 
 
-    <div class="container">
-        <section>
-            <ul>
-                <li></li>
-                <li></li>
-            </ul>
-            <footer></footer>
-        </section>
-    </div>
+    <h1>Form Example</h1>
+    <p>Fill out the form below:</p>
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
 
-    <div class="wrapper">
-        <header>navbar</header>
-        <main>content</main>
-        <footer>foot</footer>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
 
-    </div>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
 
+        <label for="newsletter">Subscribe to newsletter:</label>
+        <input type="checkbox" id="newsletter" name="newsletter"><br><br>
 
-    <!-- differnce betwwen div tag and span tag -->
-
-    <div style="background: aqua;"> this is div tag</div>
-    <!-- block level element div tag-->
-    <span style="background: brown;"> this is span tag</span>
-    <!-- inline element span tag-->
+        <input type="submit" value="Submit">
+    </form>
 
 
-    <!-- create section inside the web browser like this -->
-    <ul style="list-style-type: none;">
-        <li>
-            <p><a href="#">a</a></p>
-        </li>
-        <li>
-            <p><a href="#">b</a></p>
-        </li>
-        <li>
-            <p><a href="#">c</a></p>
-        </li>
-        <li>
-            <p><a href="#">d</a></p>
-        </li>
-        <li>
-            <p><a href="#">e</a></p>
-        </li>
-        <li>
-            <p><a href="#">f</a></p>
-        </li>
-    </ul>
 
-
-    <!-- nav bar creation.. -->
-
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">service</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">signin</a></li>
-            <li><a href="#">signup</a></li>
-
-
-        </ul>
-    </nav>
 
 
 
 
 
 </body>
-
 </html>
